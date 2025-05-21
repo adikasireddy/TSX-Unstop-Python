@@ -1,1 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ADIKASIREDDY - Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
 
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>THAMMINENI ADIKASIREDDY</h1>
+    <p>B.Tech (CSE - IoT) Student | Web Developer | ML Enthusiast</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="certificates.html">Certificates</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Section -->
+  <main>
+    <section class="intro">
+      <h2>Hello, I'm Adi Kasireddy</h2>
+      <p>I am passionate about building impactful websites and smart solutions using ML & IoT technologies.</p>
+    </section>
+    <img src="{{ url_for('static', filename='images/10.jpeg')}} ">
+  </main>
+
+  <!-- Projects Section -->
+  <section class="highlight-section">
+    <h2 class="section-title">My Projects</h2>
+    <div class="card-grid">
+      <div class="card">
+        <img src="face.jpeg" alt="Face Recognition Attendance">
+        <h3>Face Recognition Attendance System</h3>
+        <p><strong>Skills:</strong> Python, OpenCV, ML</p>
+        <a href="https://apexcropgenetics.com/">
+          <button >View Project</button>
+        </a>
+      </div>
+      <div class="card">
+        <img src="solitaire.jpg" alt="Solitaire Solutions">
+        <h3>Solitaire Solutions Website</h3>
+        <p><strong>Skills:</strong> HTML, CSS, WordPress</p>
+        <a href="https://apexcropgenetics.com/">
+          <button >View Project</button>
+        </a>
+      </div>
+      <div class="card">
+        <img src="APEX.png" alt="Apex Crop Genetics">
+        <h3>Apex Crop Genetics Website</h3>
+        <p><strong>Skills:</strong> WordPress, SEO, PHP</p>
+        <a href="https://apexcropgenetics.com/">
+          <button >View Project</button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="highlight-section">
+    <h2 class="section-title">Skills</h2>
+    <div class="card-grid">
+      <div class="card">
+        <img src="frent-end.jpeg" alt="HTML">
+        <h3>Front-End Development</h3>
+        <p><strong>Skills:</strong> HTML, CSS, JavaScript</p>
+        <button>Explore More</button>
+      </div>
+      <div class="card">
+        <img src="ml.png" alt="Python">
+        <h3>Programming</h3>
+        <p><strong>Skills:</strong> Python, ML, Git</p>
+        <button>Explore More</button>
+      </div>
+      <div class="card">
+        <img src="wordpress.jpg" alt="WordPress">
+        <h3>CMS Development</h3>
+        <p><strong>Skills:</strong> WordPress, Elementor, Plugins</p>
+        <button>Explore More</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section class="highlight-section">
+    <h2 class="section-title">Top Certifications</h2>
+    <div class="card-grid">
+      <div class="card">
+        <img src="codethantra.png" alt="CodeTantra">
+        <h3>Python Programming</h3>
+        <p><strong>Platform:</strong> CodeTantra</p>
+        <button>View Certificate</button>
+      </div>
+      <div class="card">
+        <img src="python.png" alt="HackerRank">
+        <h3>Python (Basic)</h3>
+        <p><strong>Platform:</strong> HackerRank</p>
+        <button>View Certificate</button>
+      </div>
+      <div class="card">
+        <img src="webthon.jpg" alt="Webathon">
+        <h3>Webathon</h3>
+        <p><strong>Platform:</strong> VR Siddhartha College</p>
+        <button>View Certificate</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="highlight-section">
+    <h2 class="section-title">Education</h2>
+    <div class="card-grid">
+      <div class="card">
+        <img src="pscmr.jpeg" alt="College">
+        <h3>B.Tech – CSE (IoT)</h3>
+        <p><strong>Institute:</strong> PSCMR College of Engineering & Tech</p>
+        <p><strong>Location:</strong> Vijayawada, Andhra Pradesh</p>
+        <button>Details</button>
+      </div>
+      <div class="card">
+        <img src="inter1.jpeg" alt="Intermediate">
+        <h3>Intermediate – MPC</h3>
+        <p><strong>Institute:</strong> A.P.S.W.R.S Junior College</p>
+        <p><strong>Location:</strong> Nizampatnam,Andhra Pradesh</p>
+        <button>Details</button>
+      </div>
+      <div class="card">
+        <img src="A:\I\adikasireddy\10.jpeg" alt="10th">
+        <h3>10th Standard</h3>
+        <p><strong>School:</strong> Living Hope International School</p>
+        <p><strong>Location:</strong> Kotappakonda ,Andhra Pradesh</p>
+        <button>Details</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-nav">
+      <a href="index.html">Home</a> |
+      <a href="education.html">Education</a> |
+      <a href="projects.html">Projects</a> |
+      <a href="certificates.html">Certificates</a> |
+      <a href="contact.html">Contact</a>
+    </div>
+    <p>&copy; 2025 Adi Kasireddy. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
