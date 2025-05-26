@@ -11,14 +11,10 @@
   <!-- Header -->
   <header>
     <h1>THAMMINENI ADIKASIREDDY</h1>
-    <p>B.Tech (CSE - IoT) Student | Web Developer | ML Enthusiast</p>
+    <p>B.Tech (CSE - IOT) Student | Web Developer | ML Enthusiast</p>
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="education.html">Education</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="certificates.html">Certificates</a></li>
-        <li><a href="contact.html">Contact</a></li>
+
       </ul>
     </nav>
   </header>
@@ -26,10 +22,17 @@
   <!-- Main Section -->
   <main>
     <section class="intro">
-      <h2>Hello, I'm Adi Kasireddy</h2>
-      <p>I am passionate about building impactful websites and smart solutions using ML & IoT technologies.</p>
+      <h2>Hello, I'm THAMMINENI ADIKASIREDDY</h2>
+      <p>I’m Adi Kasireddy, a B.Tech CSE (IoT) student with expertise in Web Development, Machine Learning, and IoT-based 
+        smart systems. I’ve built and deployed real-time applications like smart home automation, face recognition attendance 
+        systems, and leaf disease detection using ML. My skill set includes HTML, CSS, JavaScript, Python, WordPress, OpenCV, 
+        and Arduino. I focus on creating impactful, tech-driven solutions with clean design, responsive UI, and intelligent
+         functionality.</p>
+      <button onclick="document.location='https://ibb.co/HLy0N60k'">Resume</button> 
+      <button onclick="document.location='https://github.com/adikasireddy'">Github</button> 
+      <button onclick="document.location='https://www.linkedin.com/in/adi-kasi-reddy-thammineni-8a61b3275/'">Linkedin</button> 
     </section>
-    <img src="{{ url_for('static', filename='images/10.jpeg')}} ">
+    <img src="{{ url_for('static', filename='images/adi.jpg')}} ">
   </main>
 
   <!-- Projects Section -->
@@ -37,15 +40,15 @@
     <h2 class="section-title">My Projects</h2>
     <div class="card-grid">
       <div class="card">
-        <img src="face.jpeg" alt="Face Recognition Attendance">
+        <img src="{{ url_for('static', filename='images/face.jpeg')}} ">
         <h3>Face Recognition Attendance System</h3>
         <p><strong>Skills:</strong> Python, OpenCV, ML</p>
-        <a href="https://apexcropgenetics.com/">
+        <a href="https://github.com/adikasireddy/face-recognition">
           <button >View Project</button>
         </a>
       </div>
       <div class="card">
-        <img src="solitaire.jpg" alt="Solitaire Solutions">
+        <img src="{{ url_for('static', filename='images/soltair.jpg')}} ">
         <h3>Solitaire Solutions Website</h3>
         <p><strong>Skills:</strong> HTML, CSS, WordPress</p>
         <a href="https://apexcropgenetics.com/">
@@ -53,7 +56,7 @@
         </a>
       </div>
       <div class="card">
-        <img src="APEX.png" alt="Apex Crop Genetics">
+        <img src="{{ url_for('static', filename='images/APEX.png')}} ">
         <h3>Apex Crop Genetics Website</h3>
         <p><strong>Skills:</strong> WordPress, SEO, PHP</p>
         <a href="https://apexcropgenetics.com/">
@@ -68,22 +71,22 @@
     <h2 class="section-title">Skills</h2>
     <div class="card-grid">
       <div class="card">
-        <img src="frent-end.jpeg" alt="HTML">
+        <img src="{{ url_for('static', filename='images/frent-end.jpeg')}} ">
         <h3>Front-End Development</h3>
         <p><strong>Skills:</strong> HTML, CSS, JavaScript</p>
-        <button>Explore More</button>
+
       </div>
       <div class="card">
-        <img src="ml.png" alt="Python">
+        <img src="{{ url_for('static', filename='images/ml.png')}} ">
         <h3>Programming</h3>
         <p><strong>Skills:</strong> Python, ML, Git</p>
-        <button>Explore More</button>
+
       </div>
       <div class="card">
-        <img src="wordpress.jpg" alt="WordPress">
+        <img src="{{ url_for('static', filename='images/wordpress.jpg')}} ">
         <h3>CMS Development</h3>
         <p><strong>Skills:</strong> WordPress, Elementor, Plugins</p>
-        <button>Explore More</button>
+
       </div>
     </div>
   </section>
@@ -93,24 +96,62 @@
     <h2 class="section-title">Top Certifications</h2>
     <div class="card-grid">
       <div class="card">
-        <img src="codethantra.png" alt="CodeTantra">
+        <img src="{{ url_for('static', filename='images/codethantra.png')}} ">
         <h3>Python Programming</h3>
         <p><strong>Platform:</strong> CodeTantra</p>
-        <button>View Certificate</button>
+        <button onclick="document.location='https://ibb.co/cKrw01f2'">View Certificate</button>
       </div>
       <div class="card">
-        <img src="python.png" alt="HackerRank">
+        <img src="{{ url_for('static', filename='images/python.png')}} ">
         <h3>Python (Basic)</h3>
         <p><strong>Platform:</strong> HackerRank</p>
-        <button>View Certificate</button>
+        <button onclick="document.location='https://ibb.co/4g7XmQFZ'">View Certificate</button>
       </div>
       <div class="card">
-        <img src="webthon.jpg" alt="Webathon">
+        <img src="{{ url_for('static', filename='images/webthon.jpg')}} ">
         <h3>Webathon</h3>
         <p><strong>Platform:</strong> VR Siddhartha College</p>
-        <button>View Certificate</button>
+        <button onclick="document.location='https://ibb.co/7dsrZR86'">View Certificate</button>
       </div>
     </div>
+
+
+    <div class="card-grid">
+      <div class="card">
+        <img src="{{ url_for('static', filename='images/eduino robots.png')}} ">
+        <h3>Smart Home Technology using IoT</h3>
+        <p><strong>Platform:</strong> Eduno Robots</p>
+        <button onclick="document.location='https://ibb.co/gbx8V3tk'">View Certificate</button>
+      </div>
+      <div class="card">
+        <img src="{{ url_for('static', filename='images/supraja.png')}} ">
+        <h3>Cyber Security(Level 1)</h3>
+        <p><strong>Platform:</strong> Supraja Technologies</p>
+        <button onclick="document.location='https://ibb.co/SD3CBphg'">View Certificate</button>
+      </div>
+      <div class="card">
+        <img src="{{ url_for('static', filename='images/intern_comp.png')}} ">
+        <h3> Interactive Web Applications with DEVOPS,</h3>
+        <p><strong>Platform:</strong> Swecha Andhra Pradesh</p>
+        <button onclick="document.location='https://ibb.co/Z1WBs390'"> View Certificate</button>
+      </div>
+    </div>
+        <div class="card-grid">
+      <div class="card">
+        <img src="{{ url_for('static', filename='images/emp.jpg')}} ">
+        <h3>JobReady Employability Skills</h3>
+        <p><strong>Platform:</strong> Andhra Pradesh State Skill Development Corporation</p>
+        <button onclick="document.location='https://ibb.co/xSBWNj2p'">View Certificate</button>
+      </div>
+      <div class="card">
+        <img src="{{ url_for('static', filename='images/blue_offer.jpg')}} ">
+        <h3>Internship Offer Letter</h3>
+        <p><strong>Platform:</strong>Bluestock Fintech</p>
+        <button onclick="document.location='https://ibb.co/DDNp1xQM'">View Certificate</button>
+      </div>
++
+    </div>
+    
   </section>
 
   <!-- Education Section -->
@@ -118,25 +159,24 @@
     <h2 class="section-title">Education</h2>
     <div class="card-grid">
       <div class="card">
-        <img src="pscmr.jpeg" alt="College">
+        <img src="{{ url_for('static', filename='images/pscmr.jpeg')}} ">
         <h3>B.Tech – CSE (IoT)</h3>
         <p><strong>Institute:</strong> PSCMR College of Engineering & Tech</p>
         <p><strong>Location:</strong> Vijayawada, Andhra Pradesh</p>
-        <button>Details</button>
+
       </div>
       <div class="card">
-        <img src="inter1.jpeg" alt="Intermediate">
+        <img src="{{ url_for('static', filename='images/inter.jpg')}} ">
         <h3>Intermediate – MPC</h3>
         <p><strong>Institute:</strong> A.P.S.W.R.S Junior College</p>
         <p><strong>Location:</strong> Nizampatnam,Andhra Pradesh</p>
-        <button>Details</button>
+
       </div>
       <div class="card">
-        <img src="A:\I\adikasireddy\10.jpeg" alt="10th">
+        <img src="{{ url_for('static', filename='images/10.jpeg')}} ">
         <h3>10th Standard</h3>
         <p><strong>School:</strong> Living Hope International School</p>
         <p><strong>Location:</strong> Kotappakonda ,Andhra Pradesh</p>
-        <button>Details</button>
       </div>
     </div>
   </section>
@@ -144,11 +184,7 @@
   <!-- Footer -->
   <footer>
     <div class="footer-nav">
-      <a href="index.html">Home</a> |
-      <a href="education.html">Education</a> |
-      <a href="projects.html">Projects</a> |
-      <a href="certificates.html">Certificates</a> |
-      <a href="contact.html">Contact</a>
+
     </div>
     <p>&copy; 2025 Adi Kasireddy. All Rights Reserved.</p>
   </footer>
